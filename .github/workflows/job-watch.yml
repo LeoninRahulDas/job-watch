@@ -1,0 +1,44 @@
+name: job-watch
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'      # every 30 minutes (UTC)
+  workflow_dispatch:             # lets you run it by hand
+
+concurrency:
+  group: job-watch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Look for new jobs
+        run: python main.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          FORCE_SLOW: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+
+      - name: Save the seen list
+        run: |
+          git config user.name 'job-watch-bot'
+          git config user.email 'job-watch-bot@users.noreply.github.com'
+          git add seen.json
+          git diff --cached --quiet || (git commit -m 'update seen jobs' && git push)

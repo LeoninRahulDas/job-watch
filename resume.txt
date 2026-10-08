@@ -1,0 +1,45 @@
+LEONIN RAHUL DAS K
+DevOps Engineer, Bengaluru, India
+
+PROFESSIONAL SUMMARY
+DevOps Engineer with 2+ years of experience automating software delivery and managing cloud infrastructure on AWS. Focused on reliable CI/CD pipelines, containerized deployments on Kubernetes and infrastructure as code, with a habit of replacing manual processes with repeatable, version-controlled ones. Works closely with development and QA teams to make releases faster, more consistent and easier to troubleshoot.
+
+TECHNICAL SKILLS
+Cloud (AWS): EC2, EKS, S3, IAM, VPC, ALB, Route 53, CloudFront, Lambda, CloudWatch
+CI/CD and Code Quality: Jenkins, GitHub Actions, Git, GitHub, Maven, SonarQube
+Containers and Orchestration: Docker, Kubernetes, Amazon EKS
+Infrastructure as Code: Terraform, Ansible
+Monitoring and Logging: Prometheus, Grafana, Loki, Tempo, Amazon CloudWatch, EFK Stack
+Scripting and OS: Python, Shell scripting, Linux
+Hands-on practice: Argo CD (GitOps), Kind
+
+PROFESSIONAL EXPERIENCE
+DevOps Engineer, Test Yantra Software Solutions Pvt. Ltd., Bengaluru, 2024 - Present
+- Built and own Jenkins CI/CD pipelines for 5+ applications covering build, test, code-quality gate and deployment, cutting release time from roughly 1.5-2 hours to 40-45 minutes.
+- Containerized Java services with Docker and deployed them to Amazon EKS, giving one consistent delivery path across development, staging and production for 10-13 microservices.
+- Run Kubernetes releases on EKS: rolling updates, pod scaling, replica and configuration changes across development and production clusters.
+- Provisioned AWS infrastructure with Terraform (EC2, VPC, IAM, S3, Route 53, ALB, CloudFront, Lambda), replacing manual setup with version-controlled, reusable modules and cutting new environment setup time to 45-60 minutes.
+- Integrated SonarQube into Jenkins so builds that fail code-quality or security checks are blocked before deployment.
+- Set up Prometheus, Grafana, Loki, Tempo and CloudWatch to give developers and QA one place to see application logs and system metrics.
+- Wrote Python and Shell automation for deployment workflows, log management and server health checks, removing repeated manual work.
+- Worked with development and QA to improve release reliability and troubleshoot deployment issues.
+
+KEY PROJECT
+In-House Test Automation and Defect Logging Platform (AWS, Amazon EKS, Docker, Jenkins, Terraform, Ansible, EFK, CloudWatch, Python, Shell, Git)
+An internal platform for automating software testing and logging defects. Handled its delivery pipeline, containerized deployment, AWS infrastructure and monitoring.
+- CI/CD: Designed and maintained Jenkins pipelines that automate the platform's build, testing and deployment stages, so every change follows the same repeatable path to release.
+- Containers and orchestration: Containerized the application with Docker and deployed it on Amazon EKS, keeping delivery consistent across environments.
+- Infrastructure as code: Provisioned the AWS infrastructure with Terraform and configured servers with Ansible, replacing manual setup with repeatable, version-controlled deployments.
+- Logging and monitoring: Implemented EFK and Amazon CloudWatch for centralized log aggregation, application monitoring and infrastructure visibility, so issues can be traced from one place.
+- Automation: Wrote Python and Shell scripts for routine operational tasks, reducing repetitive manual effort.
+- Source control: Set up Git branching and code-review practices so changes to the platform are reviewed and deployments stay predictable.
+
+HANDS-ON PRACTICE
+- Kubernetes and GitOps lab: Kind clusters running Deployments, Services, Ingress, StatefulSets, DaemonSets, probes, rolling updates and Horizontal Pod Autoscaling, with Argo CD for Git-based deployment.
+- Terraform and Ansible lab on AWS: variables, state management, resource lifecycle and configuration management.
+
+EDUCATION
+Bachelor of Engineering, Computer Science and Engineering, AMC Engineering College, Bengaluru, CGPA 8.2
+
+TRAINING
+DevOps training, Intellipaat

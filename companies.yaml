@@ -1,0 +1,7 @@
+# Add company names here (see Part 6 of the guide for how to find and test them).
+# Example:
+#   greenhouse:
+#     - company-one
+greenhouse: []
+lever: []
+ashby: []
