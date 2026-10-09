@@ -1,45 +1,104 @@
-LEONIN RAHUL DAS K
-DevOps Engineer, Bengaluru, India
+# LEONIN RAHUL DAS K
+**DevOps Engineer | AWS | Kubernetes | Terraform | Jenkins**
 
-PROFESSIONAL SUMMARY
-DevOps Engineer with 2+ years of experience automating software delivery and managing cloud infrastructure on AWS. Focused on reliable CI/CD pipelines, containerized deployments on Kubernetes and infrastructure as code, with a habit of replacing manual processes with repeatable, version-controlled ones. Works closely with development and QA teams to make releases faster, more consistent and easier to troubleshoot.
+Bengaluru, India | +91 7338521037 | leoninrahuldask@gmail.com | https://www.linkedin.com/in/leonin-rahul-das-k-8a549b22b/
 
-TECHNICAL SKILLS
-Cloud (AWS): EC2, EKS, S3, IAM, VPC, ALB, Route 53, CloudFront, Lambda, CloudWatch
-CI/CD and Code Quality: Jenkins, GitHub Actions, Git, GitHub, Maven, SonarQube
-Containers and Orchestration: Docker, Kubernetes, Amazon EKS
-Infrastructure as Code: Terraform, Ansible
-Monitoring and Logging: Prometheus, Grafana, Loki, Tempo, Amazon CloudWatch, EFK Stack
-Scripting and OS: Python, Shell scripting, Linux
-Hands-on practice: Argo CD (GitOps), Kind
+---
 
-PROFESSIONAL EXPERIENCE
-DevOps Engineer, Test Yantra Software Solutions Pvt. Ltd., Bengaluru, 2024 - Present
-- Built and own Jenkins CI/CD pipelines for 5+ applications covering build, test, code-quality gate and deployment, cutting release time from roughly 1.5-2 hours to 40-45 minutes.
-- Containerized Java services with Docker and deployed them to Amazon EKS, giving one consistent delivery path across development, staging and production for 10-13 microservices.
-- Run Kubernetes releases on EKS: rolling updates, pod scaling, replica and configuration changes across development and production clusters.
-- Provisioned AWS infrastructure with Terraform (EC2, VPC, IAM, S3, Route 53, ALB, CloudFront, Lambda), replacing manual setup with version-controlled, reusable modules and cutting new environment setup time to 45-60 minutes.
-- Integrated SonarQube into Jenkins so builds that fail code-quality or security checks are blocked before deployment.
-- Set up Prometheus, Grafana, Loki, Tempo and CloudWatch to give developers and QA one place to see application logs and system metrics.
-- Wrote Python and Shell automation for deployment workflows, log management and server health checks, removing repeated manual work.
-- Worked with development and QA to improve release reliability and troubleshoot deployment issues.
+## PROFESSIONAL SUMMARY
 
-KEY PROJECT
-In-House Test Automation and Defect Logging Platform (AWS, Amazon EKS, Docker, Jenkins, Terraform, Ansible, EFK, CloudWatch, Python, Shell, Git)
-An internal platform for automating software testing and logging defects. Handled its delivery pipeline, containerized deployment, AWS infrastructure and monitoring.
-- CI/CD: Designed and maintained Jenkins pipelines that automate the platform's build, testing and deployment stages, so every change follows the same repeatable path to release.
-- Containers and orchestration: Containerized the application with Docker and deployed it on Amazon EKS, keeping delivery consistent across environments.
-- Infrastructure as code: Provisioned the AWS infrastructure with Terraform and configured servers with Ansible, replacing manual setup with repeatable, version-controlled deployments.
-- Logging and monitoring: Implemented EFK and Amazon CloudWatch for centralized log aggregation, application monitoring and infrastructure visibility, so issues can be traced from one place.
-- Automation: Wrote Python and Shell scripts for routine operational tasks, reducing repetitive manual effort.
-- Source control: Set up Git branching and code-review practices so changes to the platform are reviewed and deployments stay predictable.
+DevOps Engineer with 2+ years of experience in AWS cloud infrastructure, CI/CD automation, Docker, Kubernetes, Amazon EKS, Terraform, and Ansible. Experienced in building Jenkins CI/CD pipelines, deploying Java microservices on Kubernetes, provisioning AWS infrastructure as code, and implementing monitoring and centralized logging using Prometheus, Grafana, Loki, Tempo, and CloudWatch. Strong focus on automation, reliable software releases, infrastructure standardization, and production troubleshooting.
 
-HANDS-ON PRACTICE
-- Kubernetes and GitOps lab: Kind clusters running Deployments, Services, Ingress, StatefulSets, DaemonSets, probes, rolling updates and Horizontal Pod Autoscaling, with Argo CD for Git-based deployment.
-- Terraform and Ansible lab on AWS: variables, state management, resource lifecycle and configuration management.
+---
 
-EDUCATION
-Bachelor of Engineering, Computer Science and Engineering, AMC Engineering College, Bengaluru, CGPA 8.2
+## TECHNICAL SKILLS
 
-TRAINING
-DevOps training, Intellipaat
+**Cloud & AWS:** AWS, EC2, EKS, S3, IAM, VPC, ALB, Route 53, CloudFront, Lambda, CloudWatch
+
+**CI/CD & DevOps:** Jenkins, GitHub Actions, Git, GitHub, Maven, SonarQube, Argo CD, GitOps
+
+**Containers & Orchestration:** Docker, Kubernetes, Amazon EKS, Kind
+
+**Infrastructure as Code & Configuration Management:** Terraform, Ansible
+
+**Monitoring & Logging:** Prometheus, Grafana, Loki, Tempo, CloudWatch, EFK Stack
+
+**Scripting & Operating Systems:** Python, Shell Scripting, Linux
+
+---
+
+## PROFESSIONAL EXPERIENCE
+
+### DevOps Engineer
+**Test Yantra Software Solutions Pvt. Ltd. — Bengaluru, India**  
+**2024 – Present**
+
+- Built and maintained Jenkins CI/CD pipelines for **5+ applications**, covering build, testing, SonarQube quality gates, and deployment, reducing release time from approximately **1.5–2 hours to 40–45 minutes**.
+- Containerized Java microservices using **Docker** and deployed them to **Amazon EKS**, supporting consistent delivery across development, staging, and production environments for **10–13 microservices**.
+- Managed Kubernetes deployments on Amazon EKS, including rolling updates, pod scaling, replica management, configuration changes, and deployment troubleshooting across development and production environments.
+- Provisioned AWS infrastructure using **Terraform**, including EC2, VPC, IAM, S3, Route 53, ALB, CloudFront, and Lambda, reducing new environment setup time to approximately **45–60 minutes**.
+- Integrated **SonarQube quality gates with Jenkins** to prevent deployments when code-quality checks failed.
+- Implemented **Prometheus, Grafana, Loki, Tempo, and CloudWatch** for application monitoring, centralized logging, infrastructure visibility, and troubleshooting.
+- Developed **Python and Shell automation** for deployment workflows, log management, server health checks, and repetitive operational tasks.
+- Worked with development and QA teams to troubleshoot deployment issues, improve release reliability, and maintain consistent deployment processes.
+- Used Git and GitHub-based workflows for source control, branching, code reviews, and CI/CD integration.
+
+---
+
+## KEY PROJECT
+
+### In-House Test Automation and Defect Logging Platform
+**AWS | Amazon EKS | Docker | Jenkins | Terraform | Ansible | EFK | CloudWatch | Python | Shell | Git**
+
+Internal platform for automating software testing and defect logging, with responsibility for CI/CD, containerized deployment, AWS infrastructure, automation, monitoring, and logging.
+
+- Designed and maintained **Jenkins CI/CD pipelines** automating application build, testing, quality checks, and deployment stages.
+- Containerized the application using **Docker** and deployed it to **Amazon EKS** for consistent application delivery across environments.
+- Provisioned AWS infrastructure using **Terraform** and configured servers using **Ansible**, replacing manual infrastructure and configuration activities with repeatable automation.
+- Implemented **EFK and Amazon CloudWatch** for centralized logging, application monitoring, and infrastructure visibility.
+- Developed **Python and Shell scripts** for operational automation, deployment workflows, log management, and system health checks.
+- Implemented Git branching and code-review practices to improve change control and deployment consistency.
+
+---
+
+## HANDS-ON PROJECTS & LABS
+
+### Kubernetes & GitOps Lab
+**Kubernetes | Kind | Argo CD | Docker**
+
+- Built Kubernetes clusters using **Kind** and practiced Deployments, Services, Ingress, StatefulSets, DaemonSets, ConfigMaps, rolling updates, and Horizontal Pod Autoscaling.
+- Configured **readiness and liveness probes** for application health monitoring.
+- Implemented GitOps-based application deployment using **Argo CD**.
+- Practiced Kubernetes troubleshooting involving pods, services, deployments, logs, configuration, and resource scaling.
+
+### Terraform & Ansible AWS Lab
+**Terraform | Ansible | AWS | Linux**
+
+- Practiced Terraform variables, state management, resource lifecycle management, and reusable infrastructure configurations.
+- Provisioned AWS resources using Infrastructure as Code.
+- Used Ansible for Linux server configuration, automation, and repeatable system administration tasks.
+
+---
+
+## EDUCATION
+
+### Bachelor of Engineering — Computer Science and Engineering
+**AMC Engineering College, Bengaluru, India**  
+CGPA: **8.2 / 10**
+
+---
+
+## TRAINING
+
+**DevOps Training — Intellipaat**
+
+Training and hands-on practice covering AWS, Linux, Git, Jenkins, Docker, Kubernetes, Terraform, Ansible, CI/CD, and DevOps practices.
+
+---
+
+## ADDITIONAL INFORMATION
+
+**Location:** Bengaluru, India  
+**Target Roles:** DevOps Engineer, Cloud Engineer, Junior DevOps Engineer, Associate DevOps Engineer, Site Reliability Engineer, Platform Engineer
+
+**Core Areas:** AWS Cloud | CI/CD | Kubernetes | Docker | Terraform | Ansible | Jenkins | Infrastructure Automation | Monitoring | Logging | Linux

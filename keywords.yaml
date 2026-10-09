@@ -4,7 +4,6 @@ title_include:
   - sre
   - site reliability
   - platform engineer
-  - cloud engineer
   - infrastructure engineer
   - release engineer
   - build engineer
@@ -37,6 +36,9 @@ skills:
   - ci/cd
   - sonarqube
   - linux
+  - azure
+  - loki
+  - tempo
 
 min_skill_hits: 2          # job must mention at least this many skills
 
@@ -45,9 +47,10 @@ onsite_cities: [bengaluru, bangalore]
 remote_regions: [india, anywhere, worldwide, apac, asia]
 allow_unspecified_remote: false   # true = also accept jobs that only say Remote
 
-max_years_required: 4      # skip jobs asking for more years than this
+min_years_required: 1
+max_years_required: 3      # skip jobs asking for more years than this
 
 # AI scoring (free Gemini key). Set to false to use keyword filtering only.
 use_ai_scoring: true
-min_score: 55              # only alert when the AI score is at least this
-max_alerts_per_run: 15
+min_score: 45               # only alert when the AI score is at least this
+max_alerts_per_run: 35

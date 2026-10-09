@@ -1,7 +1,33 @@
-# Add company names here (see Part 6 of the guide for how to find and test them).
-# Example:
-#   greenhouse:
-#     - company-one
-greenhouse: []
-lever: []
-ashby: []
+greenhouse:
+  - datadog
+  - gitlab
+  - cloudflare
+  - hashicorp
+  - mongodb
+  - elastic
+  - okta
+  - twilio
+  - stripe
+
+lever:
+  - binance
+  - zoox
+  - finch
+  - teamsnap
+  - anchorage
+  - includedhealth
+  - windfalldata
+  - verdigris
+  - netflix
+
+ashby:
+  - ramp
+  - causal
+  - tavily
+  - hud
+  - ema
+  - fundamental
+  - tekion
+  - ashby
+  - c1
+  - aic
